@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Module for zoom_array function"""
+
+
 from typing import Tuple, List
-
-
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
     """Returns a zoomed in list from a tuple"""
     zoomed_in: List = [
