@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 
 import asyncio
-from 2_measure_runtime import measure_runtime
+from importlib import import_module as using
+
+measure_runtime = using('2-measure_runtime').measure_runtime
 
 async def main():
     return await measure_runtime()
